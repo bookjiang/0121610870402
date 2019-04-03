@@ -3,7 +3,7 @@
 <%@page import="listener.requestlistener"%>
 <html>
 	<head><title>显示圆面积页面</title></head>
-
+<center>
 		<body>
 			<center>
 			<h1>面积为</h1>
@@ -15,5 +15,5 @@
 			</center>
 		</body>
 
-
+</center>
 </html>
