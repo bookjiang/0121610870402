@@ -1,0 +1,46 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>用户注册</title>
+	<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+
+
+<body>
+	<form name="register" method="post" action="reg_check.jsp">
+		<table width="70%" border="1" align="center">
+			<tr><th colspan="2" align="center">用户注册信息</th></tr>
+			<tr><td>用户名</td><td><input type="text" name="reg_Name" maxlength="16" size="40" class="info"></td></tr>
+			<tr><td>密码</td><td><input type="password" name="reg_psd" maxlength="16" size="40" class="info"></td></tr>
+			<tr><td>校验密码</td><td><input type="password" name="reg_psdcheck" maxlength="16" size="40" class="info"></td></tr>
+			<tr><td>籍贯</td><td>
+				<select name="reg_birthplace">
+					<option selected>浙江</option>
+					<option>安徽</option>
+					<option>武汉</option>
+			</select></td></tr>
+			<tr><td>兴趣爱好</td><td>
+				<input type="checkbox" name="reg_interst">篮球
+				<input type="checkbox" name="reg_interst">足球
+				<input type="checkbox" name="reg_interst">书法
+				<input type="checkbox" name="reg_interst">音乐
+				<br>
+				<input type="checkbox" name="reg_interst">绘画
+				<input type="checkbox" name="reg_interst">散打
+				<input type="checkbox" name="reg_interst">瑜伽
+				<input type="checkbox" name="reg_interst">其他
+
+			</td></tr>
+			<tr><td>政治面貌</td><td>
+				<input type="radio" name="reg_politics" checked="checked">党员
+				<input type="radio" name="reg_politics">团员
+				<input type="radio" name="reg_politics">群众
+			</td></tr>
+			<tr><td colspan="2" align="center"><input type="submit" value="提交"><input type="reset" value="重置"></td></tr>
+			<tr><td colspan="2" align="center"><a href="consult.txt">注册帮助信息请点击这里</a></td></tr>
+		</table>
+	</form>
+
+</body>
+
+</html>
